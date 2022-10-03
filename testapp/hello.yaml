@@ -9,7 +9,7 @@ spec:
     - name: apple-app 
       image: hashicorp/http-echo 
       args: 
-        - "-text=test ou23hlfjnksfgfgfdgd" 
+        - "-text=test nin" 
 --- 
 kind: Service 
 apiVersion: v1 
