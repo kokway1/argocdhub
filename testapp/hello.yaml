@@ -1,7 +1,7 @@
 kind: Pod 
 apiVersion: v1 
 metadata: 
-  name: apple-apphub
+  name: apphub2
   labels: 
     app: apple 
 spec: 
@@ -14,7 +14,7 @@ spec:
 kind: Service 
 apiVersion: v1 
 metadata: 
-  name: apple-service 
+  name: servicappleehub2
 spec: 
   selector: 
     app: apple 
