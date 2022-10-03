@@ -4,7 +4,6 @@ metadata:
   name: apphub2
   labels: 
     app: apple 
-  argocd.argoproj.io/sync-options: Replace=true
 spec: 
   containers: 
     - name: apple-app 
