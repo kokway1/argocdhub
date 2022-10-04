@@ -10,7 +10,7 @@ spec:
       image: hashicorp/http-echo:0.2.3
 #       image: hashicorp/http-echo:latest
       args: 
-        - "-text=test bbbsgsdsdfdfs" 
+        - "-text=test 123" 
 --- 
 kind: Service 
 apiVersion: v1 
