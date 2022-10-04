@@ -12,7 +12,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kokway1/argocdhub.git  # Can point to either a Helm chart repo or a git repo.
+    # repoURL: https://github.com/kokway1/argocdhub.git  # Can point to either a Helm chart repo or a git repo.
+    repoURL: ssh://git@github.com:kokway1/argocdhub.git
     targetRevision: HEAD  # For Helm, this refers to the chart version.
     path: testapp  # This has no meaning for Helm charts pulled directly from a Helm repo instead of git.
 
